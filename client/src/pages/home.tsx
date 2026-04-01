@@ -4,10 +4,11 @@ import { Footer } from "@/components/layout/Footer";
 import { COMPANY_INFO, PROJECTS } from "@/lib/constants";
 import { ArrowRight, ChevronRight, MapPin, Home as HomeIcon, Users, Calendar, Award } from "lucide-react";
 import { Link } from "wouter";
-import heroImage from "@assets/generated_images/family_outside_modern_home.png";
 import impactImage from "@assets/generated_images/modern_school_building_exterior.png";
 import historyImage from "@assets/generated_images/multigenerational_hands_with_blueprints.png";
 import { useDocumentTitle } from "@/hooks/useDocumentTitle";
+
+const heroImage = "/hero.png";
 
 export default function Home() {
   useDocumentTitle();
