@@ -1,0 +1,11 @@
+# Robots.txt for Grupo Las Margaritas
+# https://www.glm.com.gt
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.glm.com.gt/sitemap.xml
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1
