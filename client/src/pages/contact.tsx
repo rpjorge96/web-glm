@@ -99,7 +99,7 @@ export default function Contact() {
       </section>
 
       <section className="py-24 bg-white">
-        <div className="container-custom grid md:grid-cols-2 gap-16">
+        <div className="container-custom flex flex-col-reverse md:grid md:grid-cols-2 gap-16">
           {/* Info */}
           <div className="space-y-12">
             <div>

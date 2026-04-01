@@ -81,6 +81,14 @@ export function Navbar() {
                 {item.name}
               </Link>
             ))}
+            <Link
+              href="/contacto"
+              className="mt-2 bg-primary text-primary-foreground text-center px-5 py-3 rounded-full text-base font-semibold hover:bg-primary/90 transition-colors"
+              onClick={() => setIsOpen(false)}
+              data-testid="mobile-cta-contactar"
+            >
+              Contactar
+            </Link>
           </div>
         </div>
       )}
